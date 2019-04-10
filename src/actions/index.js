@@ -23,7 +23,7 @@ export const getPerson = () => dispatch => {
     })
     .catch(err => {
         dispatch ({
-            type: SUCCESS,
+            type: FAILURE,
             payload: err
         })
     })
